@@ -24,4 +24,6 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
+  flex: 1;
+  margin-top: 15em;
 `

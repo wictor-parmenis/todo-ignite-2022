@@ -10,8 +10,9 @@ export interface  IBackground {
 
 const Background: React.FC<IBackground> = ({children}) => {
   return <Container>
-        <img src={Logo}  alt="Logo" />
+      
       <Content>
+        {/* add logo */}
         {children}
       </Content>
   </Container>
