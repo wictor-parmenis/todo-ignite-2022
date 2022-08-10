@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../../assets/logo.svg';
 
-import { Container, Content } from './styles';
+import { Container, ContainerImage, Content } from './styles';
 
 
 export interface  IBackground {
@@ -12,7 +12,9 @@ const Background: React.FC<IBackground> = ({children}) => {
   return <Container>
       
       <Content>
-        {/* add logo */}
+        <ContainerImage >
+          <img src={Logo} alt="" />
+        </ContainerImage>
         {children}
       </Content>
   </Container>

@@ -12,18 +12,26 @@ export const Container = styled.div`
         to bottom,
         ${colors.gray700} 0%,
         ${colors.gray700} 30%,
-        ${colors.gray400} 30%,
-        ${colors.gray400} 100%
+        ${colors.gray600} 30%,
+        ${colors.gray600} 100%
     );
   `}
+`;
+
+export const ContainerImage = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   img {
-      width: 200px;
-      transform: translateY(120%);
+    width: 200px;
+    margin-bottom: 3.7em;
   }
-`;
+  
+`
 
 export const Content = styled.div`
   flex: 1;
-  margin-top: 15em;
+  flex-direction: column;
+  margin-top: 7em;
 `
