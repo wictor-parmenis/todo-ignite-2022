@@ -20,14 +20,16 @@ export const TextContainer = styled.div`
     gap: 1em;
 `
 
-export const TextNumber = styled.p`
+export const ContainerTextNumber = styled.div`
     border-radius: 16px;
+    padding: 3px 5px 3px 5px;
+    background-color: ${colors.gray400};
+`
+
+export const TextNumber = styled.span`
     font-size: 16px;
     color: ${colors.gray200};
-    background-color: ${colors.gray400};
-    padding: 3px 5px 3px 5px;
     font-weight: bold;
-
 `
 
 export const TextColor = styled.p`

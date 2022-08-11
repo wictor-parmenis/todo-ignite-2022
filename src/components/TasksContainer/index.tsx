@@ -33,6 +33,7 @@ const TasksContainer: React.FC = () => {
         <Button style={ButtonStyle} onClick={() => handleAddTask()}>Criar</Button>
       </InputContainer>
       <Board 
+      setTasks={setTasks}
       tasks={tasks}
       />
   </Container>
